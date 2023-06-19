@@ -11,5 +11,5 @@
     height: calc(90% - 7rem);
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }

@@ -1,32 +1,31 @@
+.all-cards {
+    border: solid 2px green;
+    margin: 1rem 0.3rem;
+    transition: 0.5s ease-in-out;
+}
 .default-card {
-	border: solid 2px green;
-	margin: 1rem 0.5rem;
-	width: 30%;
-	height: calc(100% - 2rem);
+    width: 32%;
+    height: calc(100% - 2rem);
 }
 
 .active-card {
-	border: solid 2px green;
-	margin: 1rem 0.5rem;
-	width: 80%;
-	height: calc(100% - 2rem);
+    width: 90%;
+    height: calc(100% - 2rem);
 }
 
 .nonactive-card {
-	border: solid 2px green;
-	margin: 1rem 0.5rem;
-	width: 5%;
-	height: calc(100% - 2rem);
+    width: 3%;
+    height: calc(100% - 2rem);
 
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nonactive-card h1 {
-	transform: rotate(-90deg);
-	white-space: nowrap;
+    transform: rotate(-90deg);
+    white-space: nowrap;
 }
 
 .nonactive-card button {
-	display: none;
+    display: none;
 }
