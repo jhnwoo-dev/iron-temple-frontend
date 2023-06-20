@@ -4,6 +4,7 @@ import './style.css';
 export const CardsHome = (props) => {
 	const [button, setButton] = useState(<></>);
 
+
 	useEffect(() => {
 		if (props.clickType === 'expand') {
 			setButton(
@@ -23,7 +24,18 @@ export const CardsHome = (props) => {
 	return (
 		<section className={props.cardStyle + ' all-cards'}>
 			<h1>{props.title}</h1>
+
+			{/*useEffect conditional rendering  */}
 			{button}
+
+			{/* CSS Conditional rendering */}
+
+			{/* <button onClick={props.handleSpotlight} value={props.title} className="show">
+				expand
+			</button>
+			<button onClick={props.handleClose} value={props.title} className="hide">
+				close
+			</button> */}
 		</section>
 	);
 };

@@ -29,3 +29,11 @@
 .nonactive-card button {
     display: none;
 }
+
+.active-card .show {
+    display: none;
+}
+
+.default-card .hide {
+    display: none;
+}
