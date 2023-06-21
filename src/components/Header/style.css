@@ -25,12 +25,12 @@ header a:after {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
+    height: 1.5px;
     bottom: 0;
     left: 0;
     background-color: #f4f4f8;
     transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    transition: transform 0.3s ease-out;
 }
 header a:hover:after {
     transform: scaleX(1);
