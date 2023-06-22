@@ -56,3 +56,7 @@ nav {
 .dropdown:hover .dropdown-content {
     opacity: 1;
 }
+
+.dropbtn {
+    cursor: pointer;
+}
