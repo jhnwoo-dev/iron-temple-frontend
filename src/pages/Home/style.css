@@ -1,9 +1,57 @@
 #home {
-	position: relative;
-	height: 100vh;
+	display: flex;
+	height: calc(100vh - 6rem);
 	padding-top: 6rem;
+	border: solid red;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#home > * {
+	position: relative;
+	margin: 0;
+	padding: 0 1rem;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#home-left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 #home-logo {
-	height: 50%;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100%;
+}
+
+#new-standard {
+	font-size: 5rem;
+	margin: 0;
+	color: aliceblue;
+}
+
+#join-btn {
+	border: solid 1px;
+	border-radius: 6px;
+	padding: 0.5rem;
+	background-color: #111111;
+	color: aliceblue;
+	transition: 0.2s ease;
+}
+
+.glow-btn:hover {
+	color: rgba(255, 255, 255, 1);
+	box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.4);
+}
+
+#join-btn:hover {
+	cursor: pointer;
+	border: solid 1px #111111;
 }
