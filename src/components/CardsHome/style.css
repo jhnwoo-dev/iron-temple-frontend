@@ -1,24 +1,24 @@
 .all-cards {
     border: solid 2px green;
-    margin: 1rem 0.3rem;
+    margin: 0.25rem 0.2rem;
     transition: 0.5s ease-in-out;
 }
 .default-card {
     width: 32%;
-    height: calc(100% - 2rem);
+    height: calc(100% - 0.5rem);
 }
 
 .active-card {
-    width: 90%;
-    height: calc(100% - 2rem);
+    width: 94%;
+    height: calc(100% - 0.5rem);
 }
 
 .nonactive-card {
     width: 3%;
-    height: calc(100% - 2rem);
+    height: calc(100% - 0.5rem);
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 .nonactive-card h1 {
