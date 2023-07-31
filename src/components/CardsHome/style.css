@@ -1,39 +1,50 @@
 .all-cards {
-    border: solid 2px green;
-    margin: 0.25rem 0.2rem;
-    transition: 0.5s ease-in-out;
+	position: relative;
+	border: solid 2px green;
+	margin: 0.25rem 0.2rem;
+	transition: 0.5s ease-in-out;
 }
+
+.bg-img {
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
 .default-card {
-    width: 32%;
-    height: calc(100% - 0.5rem);
+	width: 32%;
+	height: calc(100% - 0.5rem);
 }
 
 .active-card {
-    width: 94%;
-    height: calc(100% - 0.5rem);
+	width: 94%;
+	height: calc(100% - 0.5rem);
 }
 
 .nonactive-card {
-    width: 3%;
-    height: calc(100% - 0.5rem);
+	width: 3%;
+	height: calc(100% - 0.5rem);
 
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
 }
 .nonactive-card h1 {
-    transform: rotate(-90deg);
-    white-space: nowrap;
+	transform: rotate(-90deg);
+	white-space: nowrap;
 }
 
 .nonactive-card button {
-    display: none;
+	display: none;
 }
 
 .active-card .show {
-    display: none;
+	display: none;
 }
 
 .default-card .hide {
-    display: none;
+	display: none;
 }

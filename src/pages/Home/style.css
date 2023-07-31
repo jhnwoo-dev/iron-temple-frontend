@@ -1,15 +1,9 @@
-.page {
-    border: solid 2px black;
-    height: 100vh;
+#home {
+	position: relative;
+	height: 100vh;
+	padding-top: 6rem;
 }
 
-#home-card-container {
-    border: solid 2px red;
-    margin: 2rem 1rem;
-    margin-top: 9rem;
-    width: calc(100% - 2rem);
-    height: calc(90% - 7rem);
-
-    display: flex;
-    justify-content: space-evenly;
+#home-logo {
+	height: 50%;
 }

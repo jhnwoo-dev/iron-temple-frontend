@@ -4,7 +4,6 @@ import './style.css';
 export const CardsHome = (props) => {
 	const [button, setButton] = useState(<></>);
 
-
 	useEffect(() => {
 		if (props.clickType === 'expand') {
 			setButton(
@@ -24,6 +23,7 @@ export const CardsHome = (props) => {
 	return (
 		<section className={props.cardStyle + ' all-cards'}>
 			<h1>{props.title}</h1>
+			{/* <img className="bg-img" src={props.img}></img> */}
 
 			{/*useEffect conditional rendering  */}
 			{button}
